@@ -1,0 +1,15 @@
+@import url(styles.css) screen and(max-width:600px);
+@import url(style2.css) screen and(max-width:800px);
+h1{
+    font-size:30px;
+}
+div{
+    background-color: blue;
+    height:200px;
+    width:200px;
+    }
+    div{
+        height: 100px;
+        width:100px;
+        background-color: red;
+    }

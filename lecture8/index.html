@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      selector1,
+      selector2 .heading h2 {
+        color: purple;
+      }
+
+      .box > .done {
+        color: firebrick;
+      }
+      .box li {
+        color: blue;
+      }
+      li.done {
+        color: chartreuse;
+      }
+      h4#title.big-heading {
+        color: green;
+      }
+      ul p.done {
+        font-size: 0, 5rem;
+      }
+      label ~ input {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>List of tasks</h1>
+    <h2>Monday</h2>
+
+    <div class="box">
+      <p class="done">Need to be done today</p>
+
+      <ul class="list">
+        <li class="done">Laundry</li>
+        <li class="done">Read books</li>
+        <li class="done">Grocery</li>
+        <p class="done">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+          modi laborum eveniet pariatur dignissimos officiis laboriosam! Minima
+          error ipsum a assumenda architecto nihil eum temporibus, eos repellat
+          iusto illum tempora?
+        </p>
+      </ul>
+    </div>
+
+    <h4 id="title" class="big-heading">Hello world</h4>
+    <h4>Some text</h4>
+
+    <label for="">Enter surname</label>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis,
+      corporis iure officia voluptatibus deserunt dolorem totam omnis at odit
+      officiis illum cum perspiciatis sit. Officia itaque magni eveniet
+      voluptates! Natus.
+    </p>
+    <input type="text" />
+  </body>
+</html>

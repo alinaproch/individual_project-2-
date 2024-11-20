@@ -1,0 +1,21 @@
+li{
+color:blue;
+    
+}
+ li[draggable]{
+    color:yellow;
+ }
+ #first-id{
+    color:purple;
+ }
+.fist-class{
+    color:red;
+}
+#second-id{
+    color:pink;
+}
+
+h2{
+    color:red !important;
+    color:blue;
+}

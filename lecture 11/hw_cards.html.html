@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <style>
+        body {
+    font-family: 'Sono', sans-serif;
+    background-color:#fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.pricing-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.card {
+    background-color:#ffc3c3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1;
+    max-width: 300px;
+
+}
+
+h2 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.price {
+    font-size: 24px;
+    color: #333;
+    margin: 15px 0;
+}
+
+button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+/* Адаптивное поведение */
+@media (max-width: 1250px) {
+    .pricing-container {
+        flex-direction: column;
+    }
+
+    .card {
+        max-width: 100%;
+    }
+}
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Sono:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <div class="pricing-container">
+        <div class="card">
+            <h2>Основной</h2>
+            <p class="price">1000тг.мес</p>
+            <p>✅100 смс внутри сети</p>
+            <p>✅100 минут внутри сети</p>
+            <p>🚫минуты на другие операторы</p>
+            <button>Выбрать</button>
+        </div>
+        <div class="card">
+            <h2>Стандартный</h2>
+            <p class="price">2500 тг.мес</p>
+            <p>✅1000 смс внутри сети</p>
+            <p>✅1000 минут внутри сети</p>
+            <p>✅100 минут на другие операторы</p>
+            <button>Выбрать</button>
+        </div>
+        <div class="card">
+            <h2>Премиум</h2>
+            <p class="price">5000тг/мес</p>
+            <p>✅2000 смс внутри сети</p>
+            <p>✅2000 минут внутри сети</p>
+            <p>✅100+ минут на другие операторы</p>
+           
+            <button>Выбрать</button>
+        </div>
+    </div>
+</body>
+</html>

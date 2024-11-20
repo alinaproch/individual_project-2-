@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+   <style>
+    body {
+            background-color: #faf9f6;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            padding: 20px 50px;
+            background-color: white;
+            overflow: hidden;
+        }
+
+        .logo {
+            float: left;
+            height: 50px;
+            width: 50px;
+        }
+
+        h1 {
+            float: left;
+            margin-left: 20px;
+            font-size: 48px;
+            color: black;
+            line-height: 50px;
+        }
+
+        h1 span {
+            color: midnightblue;
+            text-decoration: underline;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 50px;
+            align-items: flex-start;
+        }
+
+        .block {
+            width: 45%;
+            box-sizing: border-box;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin: 0;
+            padding: 0;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .footer-text {
+            text-align: right;
+            margin-top: 20px;
+            font-size: 18px;
+            color: midnightblue;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+
+            .block {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+   </style>
+  </head>
+  <header>
+    <img src="./logo.png" alt="Логотип" class="logo">
+    <h1>Дизайн Интерьера на <span class="blue-text">Ваш Вкус</span></h1>
+</header>
+
+<div class="container">
+    <div class="block">
+        <img src="./interior design.jpeg" alt="Дизайн Жилых Пространств">
+        <h2>Дизайн Жилых Пространств</h2>
+        <p>Мы специализируемся на создании дизайнов для жилых помещений, будь то квартиры, дома или загородные дачи. Мы учтем ваши предпочтения, бюджет и потребности, чтобы создать интерьер, в котором вы будете счастливы.</p>
+    </div>
+    <div class="block">
+        <img src="./commercial.jpeg" alt="Дизайн Коммерческих Помещений">
+        <h2>Дизайн Коммерческих Помещений</h2>
+        <p>Наши услуги также охватывают дизайн коммерческих помещений. Мы поможем сделать Ваш офис, ресторан, магазин или другое коммерческое пространство стильным.</p>
+    </div>
+</div>
+
+<footer class="footer-text">
+    Мы готовы сделать Ваш интерьер лучше!
+</footer>
+  </body>
+</html>

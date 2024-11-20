@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border:5px solid gold;
+            display:flex;
+            color:white;
+            flex-direction:row;
+            flex-wrap:wrap;
+            height:70vh;
+            align-items: center;
+
+            
+        }
+        .container>*{
+            flex-basis:100px;
+            
+
+        }
+        .red{
+            background-color: red;
+            order:1;
+        }
+        .orange{
+            background-color: orange;
+        }
+        .yellow{
+            background-color: yellow;
+        }
+        .green{
+            background-color: green;
+            order:2;
+        }
+          .blue{
+            background-color: blue;
+          }
+          .indigo{
+            background-color: indigo;
+          }
+          .purple{
+            background-color: purple;
+            align-self:end;
+          }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="red"></div>
+        <div class="orange">Красный</div>
+        <div class="yellow">Желтый</div> 
+        <div class="green" >Зеленый</div> 
+        <div class="blue" >Голубой</div> 
+        <div class="indigo" >Синий</div> 
+        <div class="purple" >Фиолетовый</div> 
+    </div>
+</body>
+</html>
